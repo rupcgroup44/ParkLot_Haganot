@@ -1,0 +1,597 @@
+﻿* {
+    direction: rtl !important;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+
+body {
+    background-image: url('../images/Parking-background-purple.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+  #login-logo{
+      height:100%;
+      width:100%
+  }
+
+input[type=time]::-webkit-inner-spin-button,
+input[type=time]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/*עיצוב של הרדיו באטן*/
+input[type="radio"] {
+    /* Hide the default radio button */
+    appearance: none;
+  
+    -webkit-appearance: none;
+    /* Set the custom radio button size */
+    width: 20px;
+    height: 20px;
+    /* Set the custom radio button border */
+    border: 2px solid #F85A16; /* orange */
+    border-radius: 50%;
+    /* Set the custom radio button background color */
+    background-color: white;
+    /* Add shadow */
+    box-shadow: 0 0 5px 0 #F85A16; /* orange */
+}
+    input[type="radio"]:checked {
+        /* Change the custom radio button background color when checked */
+        background-color: #F85A16; /* orange */
+    }
+
+/*עיצוב של הרדיו באטן*/
+
+gtco-container {
+    margin: 0 auto;
+ 
+}
+.frame { /*מסגרת של  הטופס*/
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 3px 10px 10px #3f1157;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 30px;
+}
+
+/*עיצוב תפריט*/
+* {
+    direction: rtl
+}
+
+#Parking-lot-logo {
+    height: 100%;
+    width: 100%
+}
+
+.gtco-nav {
+    direction: rtl;
+    background-color: white;
+    padding: 6px 0;
+    opacity: 0.95;
+    box-shadow: 3px 7px 7px #3f1157;
+    border-radius: 10px;
+}
+
+    .gtco-nav ul li.active > a {
+        color: #7d22ac
+    }
+
+    .gtco-nav ul li a {
+        color: #7d22ac;
+        font-size: 30px;
+    }
+
+        .gtco-nav ul li a:hover {
+            color: #7d22ac !important
+        }
+
+.gtco-nav-toggle.gtco-nav-white > i {
+    color: #F5793B;
+    background: #F5793B;
+}
+
+    .gtco-nav-toggle.gtco-nav-white > i::before {
+        color: #F5793B;
+        background: #F5793B;
+    }
+
+    .gtco-nav-toggle.gtco-nav-white > i::after {
+        color: #F5793B;
+        background: #F5793B;
+    }
+
+.gtco-nav-toggle.active i {
+    background:transparent;
+}
+
+.gtco-nav ul li a {
+    text-align: right;
+    color: rgba(245,122,69, 0.9);
+    text-shadow: 1px 1px 3px rgb(0 1 1 / 50%)
+}
+
+.gtco-cover .overlay {
+    background:none;
+}
+
+.gtco-nav ul li.has-dropdown:hover a {
+    color: #F5793B;
+}
+
+#gtco-header img{
+    height:100%;
+    width:100%
+}
+
+@media screen and (max-width: 948px) {
+    .gtco-nav-toggle {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 948px) {
+    .gtco-nav .menu-1, .gtco-nav .menu-2 {
+        display: none;
+    }
+}
+#gtco-header{
+    background-size:contain;
+}
+h3,h1 {
+    font-family: 'Rubik', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+#menu{
+  
+    margin-top: 10px;
+}
+#Log-Form{
+    text-align: right;
+    font-size: larger;
+    padding-right: 20%
+}
+
+#forgot-link, #butLog{
+    text-align: center;
+    font-size: larger;
+    padding-left: 20%
+}
+#butReg {
+    text-align: center;
+    font-size: larger;
+}
+
+#link {
+    text-align: center;
+    font-size: larger;
+}
+
+.form-input {
+    width: 80%;
+}
+
+.form-input-reg {
+    width: 100%;
+}
+
+#REG-PASS, #REG-MAIL {
+    padding: 15px;
+}
+
+#parking-form-group {
+    width: 50%;
+    padding: 15px;
+}
+
+#hamburger {
+    padding-right: 10px;
+}
+
+#single-day, #date-range {
+    display: none;
+}
+#hours{
+    padding:20px;
+}
+form label {
+    color: black;
+    font-size: 18px;
+}
+
+
+@media (min-width: 768px) {
+    .col-xs-2 select {
+        font-size: 11px; /* adjust font size for medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .col-xs-2 select {
+        font-size: 18px; /* adjust font size for large screens */
+    }
+}
+
+.btn-middle {
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+}
+
+#koteret-invite-parking {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#res,#Archive {
+    display: none;
+    justify-content: center;
+    direction:rtl;
+}
+
+
+.gtco-section {
+    padding: 0px;
+    padding-top: 100px;
+}
+
+
+.BorrowShow {
+    opacity: 1;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    margin: 15px;
+    width: 265px;
+    padding: 30px;
+}
+
+.gtco-nav-toggle{
+    top:0px;
+    right:10px;
+
+}
+#ShowUser {
+  
+    opacity: 0.98;
+ 
+}
+    #ShowUser img {
+        max-width: 100%;
+        height: auto;
+        width: 20%;
+    }
+
+#p-User {
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 3px 10px 10px #3f1157;
+    border-radius: 30px;
+    width: fit-content;
+    background-color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:20px;
+}
+
+.gtco-tabs .gtco-tab-nav li {
+    width: 50%;
+}
+
+.btn-middle2 {
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+}
+
+.BorrowShow2 {
+    opacity: 1;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    margin: 15px;
+    padding: 30px;
+}
+
+.row_center {
+    text-align: center;
+}
+
+.dir_col {
+    float: right;
+}
+
+.date { /*כדי לסדר את הכנסת התאריך באותו הקו עם השעות*/
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (min-width: 948px) { /*שבגודל מחשב הבועה תהיה 60 אחוז מהדף*/
+    .lgSize{
+        width:60%;
+    }
+}
+
+.gtco-tabs .gtco-tab-nav li a {
+    padding: 20px;
+    width: 100%;
+    float: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 30px;
+    color: #b3b3b3;
+    font-size: 30px;
+}
+
+.BorrowShow3 {  /*כדי שהמרווח בין הפרלטים יהיה 50 וככה יוצג בדיוק מתחת לטאבים*/
+    opacity: 1;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    margin: 40px;
+    width: fit-content;
+    padding: 50px;
+}
+
+.gtco-tabs .gtco-tab-nav { /* כדי שלא יהיה רווח בין הטאבים לפלט*/
+    clear: both;
+    margin: 0;
+    padding: 3px;
+    float: left;
+    width: 100%;
+    background: #f2f2f2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 30px;
+}
+
+.BorrowShow4 { /* עיצוב ללא קיימות השאלות*/
+    opacity: 1;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    margin: 30px;
+    text-align:center;
+    padding: 30px;
+    font-size:30px;
+}
+
+.popup.active {
+    display: block !important;
+}
+
+/* The Modal (background) */
+.modalPopup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content-Popup {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius:20px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+
+.tab-and-rander {
+    background-color: #fff;
+    box-shadow: 3px 10px 10px #3f1157;
+    border-radius: 30px;
+}
+
+.hania {
+    width: 100px;
+}
+
+textarea {
+    resize: none;
+}
+#archiveH3{
+    font-size:45px;
+    text-align:center;
+    padding-top:20px;
+}
+#archiveH3,#folder{
+    float:right;
+}
+
+#Archive
+{
+    display:block;
+}
+
+#SaveUpdate, #hoursUpdate {
+    display: none;
+}
+
+#bulb, #didyouknow
+{
+    float:right;
+}
+h1#didyouknow {
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 12px;
+}
+
+.BorrowShowA { /*עיצוב הרנדר של הארכיון*/
+    opacity: 1;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    margin: 40px;
+    width: 270px;
+    padding: 30px;
+    height: 350px;
+}
+
+/*עיצוב מחדש של הכותרות בארכיון*/
+#archiveH3 {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#folder {
+    height: 60px;
+    width: 60px;
+}
+
+.arcion1 .col-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td{
+    padding: 10px;
+}
+
+#popupBorrow{ /* כתב בפופ אפ שחור*/
+    color:black;
+}
+
+
+.redBut { /* כפתור ביטול*/
+    background-color: red;
+    color: #fff;
+    border: 2px solid red !important;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+
+.greenBut { /*כפתור אישור*/
+    background-color: green;
+    color: #fff;
+    border: 2px solid green !important;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+#SmartAlgorithem {
+    border: #53c68c 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+    #SmartAlgorithem img {
+        max-width: 100%;
+        height: auto;
+        width: 12%;
+    }
+
+.smartbtn {
+    color: white;
+    font-weight: bolder;
+    background-color: #53c68c;
+}
+#Listmatch table {
+    width: 100%;
+}
+
+#SmartAlgorithem table {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #SmartAlgorithem table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+#Listmatch table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    #SmartAlgorithem  td, #SmartAlgorithem th {
+        display: block;
+        text-align: right;
+    }
+
+         #Listmatch td,#Listmatch th {
+            display: block;
+            text-align: right;
+        }
+    #SmartAlgorithem td {
+        border: none;
+       
+    }
+     #Listmatch td {
+        border: none;
+       
+    }
+        #SmartAlgorithem td:before {
+            content: attr(data-label);
+            float: left;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+     #Listmatch td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+#RateStars img, #MatchStars img, #BorrowStars img{
+    max-width: 100%;
+    height: auto;
+    width: 8%;
+}
+
+#warning {
+    border: red 3px solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.gtco-tabs .row { /* עיצוב של טאבים בהשאלות/בקשות שלי*/
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.gtco-tabs .gtco-tab-content-wrap {
+    top: 0px;
+}
